@@ -41,6 +41,6 @@ function exerciseDog(dogName, dogBreed) {
   for (let exercise = 0; exercise < routine.length - 1; exercise++) {
     const routineExercise = routine[exercise](dogName, dogBreed);
     routineExercises.push(routineExercise);
-    return routineExercise;
   }
+  return routineExercise;
 }
