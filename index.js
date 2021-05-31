@@ -23,7 +23,7 @@ function throwFrisbee(dogName, dogBreed) {
 }
 
 function walkHome(dogName, dogBreed) {
-  const homeString = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+  const homeString = `Walk home with ${dogName} the ${dogBreed}`;
   console.log(homeString);
   return homeString;
 }
