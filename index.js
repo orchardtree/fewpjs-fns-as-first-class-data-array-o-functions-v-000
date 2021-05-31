@@ -34,4 +34,4 @@ function unleashDog(dogName, dogBreed) {
   return unleashString;
 }
 
-routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
