@@ -9,3 +9,9 @@ function leashDog(dogName, dogBreed) {
   console.log(leashString);
   return leashString;
 }
+
+function walkToPark(dogName, dogBreed) {
+  const walkString = `Walk to the park with ${dogName} the ${dogBreed}`;
+  console.log(walkString);
+  return walkString;
+}
